@@ -10,7 +10,7 @@ $ ros2
 ### usage appears if ok ###
 ```
 ## 動作確認
-```
+```bash
 $ ros2 run demo_nodes_py talker     # 端末１
 $ ros2 run demo_nodes_py listener   # 端末２
 ```
