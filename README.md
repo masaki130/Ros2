@@ -12,6 +12,7 @@ $ ros2
 ### usage appears if ok ###
 ```
 ## 動作確認
+- 別々のターミナルで以下を実行すると、ノード間通信を確認できる
 ```bash
 $ ros2 run demo_nodes_py talker     # 端末１
 $ ros2 run demo_nodes_py listener   # 端末２
