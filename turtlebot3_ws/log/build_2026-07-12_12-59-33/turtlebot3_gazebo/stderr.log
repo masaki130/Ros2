@@ -1,0 +1,31 @@
+[33mCMake Warning (dev) at /usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake:438 (message):
+  The package name passed to `find_package_handle_standard_args` (PkgConfig)
+  does not match the name of the calling package (gazebo).  This can lead to
+  problems in calling code that expects `find_package` result variables
+  (e.g., `_FOUND`) to follow a certain pattern.
+Call Stack (most recent call first):
+  /usr/share/cmake-3.22/Modules/FindPkgConfig.cmake:99 (find_package_handle_standard_args)
+  /usr/lib/x86_64-linux-gnu/cmake/gazebo/gazebo-config.cmake:72 (include)
+  CMakeLists.txt:23 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+[0m
+In file included from [01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacles.cpp:17[m[K:
+[01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacles.hpp:39:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   39 | GZ_REGISTER_MODEL_PLUGIN(Obstacles)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_light_plugin.cpp:17[m[K:
+[01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_light_plugin.hpp:50:39:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   50 | GZ_REGISTER_MODEL_PLUGIN(TrafficLight)[01;35m[K;[m[K
+      |                                       [01;35m[K^[m[K
+In file included from [01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacle1.cpp:17[m[K:
+[01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacle1.hpp:36:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   36 | GZ_REGISTER_MODEL_PLUGIN(Obstacle1)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/obstacle2.cpp:17[m[K:
+[01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/obstacle2.hpp:37:36:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   37 | GZ_REGISTER_MODEL_PLUGIN(Obstacle2)[01;35m[K;[m[K
+      |                                    [01;35m[K^[m[K
+In file included from [01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/src/traffic_bar_plugin.cpp:17[m[K:
+[01m[K/home/masaki/ros2_setup_scripts/turtlebot3_ws/src/turtlebot3_simulations/turtlebot3_gazebo/include/turtlebot3_gazebo/traffic_bar_plugin.hpp:43:37:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K-Wpedantic[m[K]
+   43 | GZ_REGISTER_MODEL_PLUGIN(TrafficBar)[01;35m[K;[m[K
+      |                                     [01;35m[K^[m[K
