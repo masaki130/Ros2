@@ -3,6 +3,8 @@
 ## how to use
 
 ```bash
+$ git clone https://github.com/ryuichiueda/ros2_setup_scripts
+$ cd ros2_setup_scripts
 $ ./setup.bash
 ### don't add sudo to the head ###
 $ source ~/.bashrc
