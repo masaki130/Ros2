@@ -1,0 +1,4 @@
+[console_scripts]
+happy_pub_node = happy_topic.happy_pub_node:main
+happy_sub_node = happy_topic.happy_sub_node:main
+

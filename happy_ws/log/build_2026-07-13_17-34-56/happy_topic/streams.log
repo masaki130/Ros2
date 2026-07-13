@@ -1,0 +1,22 @@
+[0.920s] Invoking command in '/home/masaki/ros2_setup_scripts/happy_ws/src/happy_topic': PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/happy_topic build --build-base /home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/build install --record /home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/install.log --install-scripts $base/lib/happy_topic --single-version-externally-managed install_data
+[1.047s] running egg_info
+[1.047s] writing ../../build/happy_topic/happy_topic.egg-info/PKG-INFO
+[1.047s] writing dependency_links to ../../build/happy_topic/happy_topic.egg-info/dependency_links.txt
+[1.048s] writing entry points to ../../build/happy_topic/happy_topic.egg-info/entry_points.txt
+[1.048s] writing requirements to ../../build/happy_topic/happy_topic.egg-info/requires.txt
+[1.048s] writing top-level names to ../../build/happy_topic/happy_topic.egg-info/top_level.txt
+[1.049s] reading manifest file '../../build/happy_topic/happy_topic.egg-info/SOURCES.txt'
+[1.050s] writing manifest file '../../build/happy_topic/happy_topic.egg-info/SOURCES.txt'
+[1.050s] running build
+[1.050s] running build_py
+[1.050s] running install
+[1.050s] running install_lib
+[1.052s] running install_data
+[1.052s] running install_egg_info
+[1.053s] removing '/home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/python3.10/site-packages/happy_topic-0.0.0-py3.10.egg-info' (and everything under it)
+[1.053s] Copying ../../build/happy_topic/happy_topic.egg-info to /home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/python3.10/site-packages/happy_topic-0.0.0-py3.10.egg-info
+[1.054s] running install_scripts
+[1.069s] Installing happy_pub_node script to /home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/happy_topic
+[1.069s] Installing happy_sub_node script to /home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/happy_topic
+[1.069s] writing list of installed files to '/home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/install.log'
+[1.109s] Invoked command in '/home/masaki/ros2_setup_scripts/happy_ws/src/happy_topic' returned '0': PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/install/happy_topic/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/happy_topic build --build-base /home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/build install --record /home/masaki/ros2_setup_scripts/happy_ws/build/happy_topic/install.log --install-scripts $base/lib/happy_topic --single-version-externally-managed install_data

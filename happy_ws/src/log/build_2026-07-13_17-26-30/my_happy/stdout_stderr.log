@@ -1,0 +1,47 @@
+running egg_info
+creating ../build/my_happy/my_happy.egg-info
+writing ../build/my_happy/my_happy.egg-info/PKG-INFO
+writing dependency_links to ../build/my_happy/my_happy.egg-info/dependency_links.txt
+writing entry points to ../build/my_happy/my_happy.egg-info/entry_points.txt
+writing requirements to ../build/my_happy/my_happy.egg-info/requires.txt
+writing top-level names to ../build/my_happy/my_happy.egg-info/top_level.txt
+writing manifest file '../build/my_happy/my_happy.egg-info/SOURCES.txt'
+reading manifest file '../build/my_happy/my_happy.egg-info/SOURCES.txt'
+writing manifest file '../build/my_happy/my_happy.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+copying my_happy/__init__.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+copying my_happy/happy_node2.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+copying my_happy/happy_pub_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+copying my_happy/happy_node3.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+copying my_happy/happy_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy
+running install
+running install_lib
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy/__init__.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy/happy_node2.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy/happy_pub_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy/happy_node3.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/build/lib/my_happy/happy_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy
+byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy/happy_node2.py to happy_node2.cpython-310.pyc
+byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy/happy_pub_node.py to happy_pub_node.cpython-310.pyc
+byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy/happy_node3.py to happy_node3.cpython-310.pyc
+byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy/happy_node.py to happy_node.cpython-310.pyc
+running install_data
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/share/ament_index
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/share/ament_index/resource_index
+creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/share/ament_index/resource_index/packages
+copying resource/my_happy -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/share/ament_index/resource_index/packages
+copying package.xml -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/share/my_happy
+running install_egg_info
+Copying ../build/my_happy/my_happy.egg-info to /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/python3.10/site-packages/my_happy-0.0.0-py3.10.egg-info
+running install_scripts
+Installing happy_node script to /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/my_happy
+Installing happy_node2 script to /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/my_happy
+Installing happy_node3 script to /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/my_happy
+Installing happy_pub_node script to /home/masaki/ros2_setup_scripts/happy_ws/src/install/my_happy/lib/my_happy
+writing list of installed files to '/home/masaki/ros2_setup_scripts/happy_ws/src/build/my_happy/install.log'

@@ -1,0 +1,37 @@
+[0.879s] Invoking command in '/home/masaki/ros2_setup_scripts/happy_ws/src/hello': PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hello build --build-base /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build install --record /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/install.log --install-scripts $base/lib/hello --single-version-externally-managed install_data
+[1.010s] running egg_info
+[1.010s] creating ../build/hello/hello.egg-info
+[1.011s] writing ../build/hello/hello.egg-info/PKG-INFO
+[1.011s] writing dependency_links to ../build/hello/hello.egg-info/dependency_links.txt
+[1.011s] writing entry points to ../build/hello/hello.egg-info/entry_points.txt
+[1.011s] writing requirements to ../build/hello/hello.egg-info/requires.txt
+[1.011s] writing top-level names to ../build/hello/hello.egg-info/top_level.txt
+[1.011s] writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[1.012s] reading manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[1.013s] writing manifest file '../build/hello/hello.egg-info/SOURCES.txt'
+[1.013s] running build
+[1.013s] running build_py
+[1.013s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build
+[1.013s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib
+[1.013s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib/hello
+[1.013s] copying hello/__init__.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib/hello
+[1.014s] copying hello/hello_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib/hello
+[1.014s] running install
+[1.014s] running install_lib
+[1.014s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello
+[1.015s] copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib/hello/__init__.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello
+[1.015s] copying /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build/lib/hello/hello_node.py -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello
+[1.015s] byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello/__init__.py to __init__.cpython-310.pyc
+[1.016s] byte-compiling /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello/hello_node.py to hello_node.cpython-310.pyc
+[1.016s] running install_data
+[1.016s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/share/ament_index
+[1.017s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/share/ament_index/resource_index
+[1.017s] creating /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/share/ament_index/resource_index/packages
+[1.017s] copying resource/hello -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/share/ament_index/resource_index/packages
+[1.017s] copying package.xml -> /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/share/hello
+[1.017s] running install_egg_info
+[1.021s] Copying ../build/hello/hello.egg-info to /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info
+[1.021s] running install_scripts
+[1.031s] Installing hello_node script to /home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/hello
+[1.031s] writing list of installed files to '/home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/install.log'
+[1.046s] Invoked command in '/home/masaki/ros2_setup_scripts/happy_ws/src/hello' returned '0': PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/src/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/hello build --build-base /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/build install --record /home/masaki/ros2_setup_scripts/happy_ws/src/build/hello/install.log --install-scripts $base/lib/hello --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+time_pub_node = time_topic.time_pub_node:main
+

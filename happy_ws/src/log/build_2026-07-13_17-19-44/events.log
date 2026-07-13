@@ -1,0 +1,19 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (happy_topic) JobQueued: {'identifier': 'happy_topic', 'dependencies': OrderedDict()}
+[0.000334] (hello) JobQueued: {'identifier': 'hello', 'dependencies': OrderedDict()}
+[0.000454] (my_happy) JobQueued: {'identifier': 'my_happy', 'dependencies': OrderedDict()}
+[0.000477] (time_topic) JobQueued: {'identifier': 'time_topic', 'dependencies': OrderedDict()}
+[0.000486] (happy_topic) JobStarted: {'identifier': 'happy_topic'}
+[0.009158] (hello) JobStarted: {'identifier': 'hello'}
+[0.012563] (my_happy) JobStarted: {'identifier': 'my_happy'}
+[0.016465] (time_topic) JobStarted: {'identifier': 'time_topic'}
+[0.099541] (-) TimerEvent: {}
+[0.193308] (happy_topic) StderrLine: {'line': b'Traceback (most recent call last):\n  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__\n    rc = await self.task(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 120, in __call__\n    return await task_method(*args, **kwargs)\n  File "/usr/lib/python3/dist-packages/colcon_ros/task/ament_python/build.py", line 51, in build\n    setup_py_data = get_setup_data(self.context.pkg, env)\n  File "/usr/lib/python3/dist-packages/colcon_core/task/python/__init__.py", line 20, in get_setup_data\n    return dict(pkg.metadata[key](env))\n  File "/usr/lib/python3/dist-packages/colcon_ros/package_augmentation/ros_ament_python.py", line 57, in getter\n    return get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 249, in get_setup_information\n    _setup_information_cache[hashable_env] = _get_setup_information(\n  File "/usr/lib/python3/dist-packages/colcon_python_setup_py/package_identification/python_setup_py.py", line 296, in _get_setup_information\n    result = subprocess.run(\n  File "/usr/lib/python3.10/subprocess.py", line 526, in run\n    raise CalledProcessError(retcode, process.args,\nsubprocess.CalledProcessError: Command \'[\'/usr/bin/python3\', \'-c\', \'import sys;from contextlib import suppress;exec("with suppress(ImportError):    from setuptools.extern.packaging.specifiers    import SpecifierSet");exec("with suppress(ImportError):    from packaging.specifiers import SpecifierSet");from distutils.core import run_setup;dist = run_setup(    \\\'setup.py\\\', script_args=(\\\'--dry-run\\\',), stop_after=\\\'config\\\');skip_keys = (\\\'cmdclass\\\', \\\'distclass\\\', \\\'ext_modules\\\', \\\'metadata\\\');data = {    key: value for key, value in dist.__dict__.items()     if (        not key.startswith(\\\'_\\\') and         not callable(value) and         key not in skip_keys and         key not in dist.display_option_names    )};data[\\\'metadata\\\'] = {    k: v for k, v in dist.metadata.__dict__.items()     if k not in (\\\'license_files\\\', \\\'provides_extras\\\')};sys.stdout.buffer.write(repr(data).encode(\\\'utf-8\\\'))\']\' returned non-zero exit status 1.\n'}
+[0.194381] (happy_topic) JobEnded: {'identifier': 'happy_topic', 'rc': 1}
+[0.199621] (-) TimerEvent: {}
+[0.299915] (-) TimerEvent: {}
+[0.400418] (-) TimerEvent: {}
+[0.481786] (hello) JobEnded: {'identifier': 'hello', 'rc': 'SIGINT'}
+[0.482450] (time_topic) JobEnded: {'identifier': 'time_topic', 'rc': 'SIGINT'}
+[0.482607] (my_happy) JobEnded: {'identifier': 'my_happy', 'rc': 'SIGINT'}
+[0.492506] (-) EventReactorShutdown: {}
