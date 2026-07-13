@@ -32,6 +32,7 @@ $ git clone --depth 1 -b humble https://github.com/ROBOTIS-GIT/turtlebot3_simula
 $ cd ../ && colcon build --symlink-install                  # ワークスペースへ移動
 $ sourse install/setup.bash                                 # 環境変数の設定
 $ sourse install/local_setup.bash
+$ source /usr/share/gazebo/setup.sh                         # これが無いとgzclientがクラッシュする
 ```
 ## シュミレーションを起動
 ```bash
