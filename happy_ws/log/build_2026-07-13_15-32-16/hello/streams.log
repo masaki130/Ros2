@@ -1,0 +1,22 @@
+[0.572s] Invoking command in '/home/masaki/ros2_setup_scripts/happy_ws/src/hello': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello build --build-base /home/masaki/ros2_setup_scripts/happy_ws/build/hello/build install --record /home/masaki/ros2_setup_scripts/happy_ws/build/hello/install.log --install-scripts $base/lib/hello --single-version-externally-managed install_data
+[0.689s] running egg_info
+[0.689s] writing ../../build/hello/hello.egg-info/PKG-INFO
+[0.692s] writing dependency_links to ../../build/hello/hello.egg-info/dependency_links.txt
+[0.692s] writing entry points to ../../build/hello/hello.egg-info/entry_points.txt
+[0.692s] writing requirements to ../../build/hello/hello.egg-info/requires.txt
+[0.692s] writing top-level names to ../../build/hello/hello.egg-info/top_level.txt
+[0.693s] reading manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+[0.694s] writing manifest file '../../build/hello/hello.egg-info/SOURCES.txt'
+[0.694s] running build
+[0.694s] running build_py
+[0.694s] running install
+[0.694s] running install_lib
+[0.695s] running install_data
+[0.695s] copying package.xml -> /home/masaki/ros2_setup_scripts/happy_ws/install/hello/share/hello
+[0.695s] running install_egg_info
+[0.696s] removing '/home/masaki/ros2_setup_scripts/happy_ws/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info' (and everything under it)
+[0.696s] Copying ../../build/hello/hello.egg-info to /home/masaki/ros2_setup_scripts/happy_ws/install/hello/lib/python3.10/site-packages/hello-0.0.0-py3.10.egg-info
+[0.697s] running install_scripts
+[0.709s] Installing hello_node script to /home/masaki/ros2_setup_scripts/happy_ws/install/hello/lib/hello
+[0.710s] writing list of installed files to '/home/masaki/ros2_setup_scripts/happy_ws/build/hello/install.log'
+[0.733s] Invoked command in '/home/masaki/ros2_setup_scripts/happy_ws/src/hello' returned '0': CONDA_PROMPT_MODIFIER=(base) PYTHONPATH=/home/masaki/ros2_setup_scripts/happy_ws/build/hello/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/masaki/ros2_setup_scripts/happy_ws/install/hello/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/hello build --build-base /home/masaki/ros2_setup_scripts/happy_ws/build/hello/build install --record /home/masaki/ros2_setup_scripts/happy_ws/build/hello/install.log --install-scripts $base/lib/hello --single-version-externally-managed install_data
